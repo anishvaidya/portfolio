@@ -6,7 +6,7 @@ const educationList = myeducation.education;
 
 const Education = () => {
     return (
-        <div className = "Education">
+        <div className = "Section">
             <div className = "Heading">Education</div>
             {
             educationList.map((education, i) => {

@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Education from './components/Education.js';
+import Projects from './components/Projects.js';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <img src={logo} className="App-logo no-select" alt="logo" />
       </header>
       <Education />
+      <Projects />
     </div>
     
   );

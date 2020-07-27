@@ -47,11 +47,17 @@
 }
 
 /* education styling */
-.Education {
+.Section {
   min-height: 100vh;
 }
 
 .University {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: inherit;
+}
+
+.Project-title {
   font-size: 25px;
   font-weight: bold;
   font-family: inherit;
