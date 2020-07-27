@@ -1,0 +1,36 @@
+{
+    "experience" :
+    [
+        {
+            "position" : "Deep Learning Research Intern",
+            "institution" : "Centre for Systems & Software Engineering, USC",
+            "location" : "Los Angeles, United States",
+            "duration" : "May 2020-August 2020",
+            "project" : "Applications of Deep Learning and Representation Learning in Software",
+            "description" : [
+                "Researching representation and deep learning methods in Tensorflow to develop software source code summarization.",
+                "Constructing multi-modal models to learn source code summary using AST paths and attention layers to generate context."]
+        },
+        {
+            "position" : "Machine Learning Intern",
+            "institution" : "Larsen & Toubro Infotech",
+            "location" : "Mumbai, India",
+            "duration" : "December 2018-January 2019",
+            "project" : "Smart P&ID Extraction and Automation",
+            "description" : [
+                "Extracted data and assets from CAD Piping and Instrumentation diagrams (P&IDs) in real time for automation.",
+                "Annotated and augmented the real world P&ID dataset to optimum size for input to Convolutional Neural Network Model.",
+                "Implemented the VGG-19 CNN architecture and utilized Adam optimizer and achieved an accuracy of 90.1%."]
+        },
+        {
+            "position" : "Web Development Intern",
+            "institution" : "KAVWorks Technologies Pvt. Ltd.",
+            "location" : "Mumbai, India",
+            "duration" : "July 2018-August 2018",
+            "project" : "Employee Management Portal",
+            "description" : [
+                "Implemented employee management functionality in the system using Laravel Framework, Vue.js, MySQL & MongoDB.",
+                "Exported old databases to a new system and deployed on firm's network with Heroku server."]
+        }
+    ]
+}

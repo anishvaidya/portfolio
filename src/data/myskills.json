@@ -1,0 +1,141 @@
+{
+    "skills" :
+    [
+        {
+            "languages" : [
+                {
+                    "name" : "Python",
+                    "logo" : ""
+                },
+                {
+                    "name" : "Java",
+                    "logo" : ""
+                },
+                {
+                    "name" : "C",
+                    "logo" : ""
+                },
+                {
+                    "name" : "C++",
+                    "logo" : ""
+                },
+                {
+                    "name" : "SQL",
+                    "logo" : ""
+                },
+                {
+                    "name" : "Shell scripting",
+                    "logo" : ""
+                }
+            ],
+
+            "webDevelopment" : [
+                {
+                    "name" : "HTML",
+                    "logo" : ""
+                },
+                {
+                    "name" : "JavaScript",
+                    "logo" : ""
+                },
+                {
+                    "name" : "PHP",
+                    "logo" : ""
+                },
+                {
+                    "name" : "Laravel",
+                    "logo" : ""
+                },
+                {
+                    "name" : "Node.js",
+                    "logo" : ""
+                },
+                {
+                    "name" : "Vue.js",
+                    "logo" : ""
+                },
+                {
+                    "name" : "React.js",
+                    "logo" : ""
+                }
+            ],
+
+            "databases" : [
+                {
+                    "name" : "MySQL",
+                    "logo" : ""
+                },
+                {
+                    "name" : "MongoDB",
+                    "logo" : ""
+                },
+                {
+                    "name" : "Firebase",
+                    "logo" : ""
+                },
+                {
+                    "name" : "PostgreSQL",
+                    "logo" : ""
+                },
+                {
+                    "name" : "SQLite",
+                    "logo" : ""
+                }
+            ],
+
+            "dataScience" : [
+                {
+                    "name" : "Tensorflow",
+                    "logo" : ""
+                },
+                {
+                    "name" : "Keras",
+                    "logo" : ""
+                },
+                {
+                    "name" : "PyTorch",
+                    "logo" : ""
+                },
+                {
+                    "name" : "Scikit-learn",
+                    "logo" : ""
+                },
+                {
+                    "name" : "Hadoop",
+                    "logo" : ""
+                },
+                {
+                    "name" : "PySpark",
+                    "logo" : ""
+                },
+                {
+                    "name" : "OpenCV",
+                    "logo" : ""
+                }
+            ],
+
+            "other" : [
+                {
+                    "name" : "Android",
+                    "logo" : ""
+                },
+                {
+                    "name" : "Git",
+                    "logo" : ""
+                },
+                {
+                    "name" : "Docker",
+                    "logo" : ""
+                },
+                {
+                    "name" : "Amazon Web Services",
+                    "logo" : ""
+                },
+                {
+                    "name" : "Google Cloud Platform",
+                    "logo" : ""
+                }
+            ]
+        }
+    ]
+}
