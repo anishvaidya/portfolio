@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Education from './components/Education.js';
 import Projects from './components/Projects.js';
+import Experience from './components/Experience';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <img src={logo} className="App-logo no-select" alt="logo" />
       </header>
       <Education />
+      <Experience />
       <Projects />
     </div>
     

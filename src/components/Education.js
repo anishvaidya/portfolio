@@ -14,7 +14,7 @@ const Education = () => {
                 return (
                 <div key = {i}>
                     {/* <img src = {education.logo} alt = "logo"/> */}
-                    <img src= {logo} alt="logo"/>
+                    <img src= {logo} alt="logo" className = "Logo no-select"/>
                     {/* <img src = {require(logo)} alt = "logo"/> */}
                     <div className = "University">{education.universityName}</div>
                     <div>{education.collegeName}</div>

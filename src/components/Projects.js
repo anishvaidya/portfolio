@@ -3,6 +3,7 @@ import myprojects from '../data/myprojects.json';
 import '../App.css';
 
 const projecList = myprojects.projects;
+const link = process.env.PUBLIC_URL + "/assets/images/source_code.png";
 
 const Projects = () => {
     return (
@@ -18,14 +19,14 @@ const Projects = () => {
                             <ul>
                             {project.description.map((line, j) => {
                                 return (
-                                    <div key = {j}>
-                                        <li>{line}</li>
-                                    </div>
+                                    // <div key = {j}>
+                                        <li key = {j}>{line}</li>
+                                    // {/* </div> */}
                                 );
                             })}
                             </ul>
                             <a href= {project.link} target = "_blank" rel="noopener noreferrer">
-                                <img src={process.env.PUBLIC_URL + "/assets/images/source_code.png"} alt="Link"/>
+                                <img src={link} alt="Link" className = "Project-link"/>
                             </a>
                         </div>
                     );
