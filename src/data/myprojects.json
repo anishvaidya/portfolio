@@ -4,6 +4,7 @@
         {
             "projectName" : "Recommendation System for Yelp Businesses",
             "technologies" : "Python, Spark, MapReduce",
+            "technologies-icon" : ["/assets/skills_logos/python.png"],
             "duration" : "May 2020-June 2020",
             "description" : [
                 "Devised content based recommendation algorithm which uses comprehensive reviews for each unique user and business to determine businesses likely to be reviewed by user.", 

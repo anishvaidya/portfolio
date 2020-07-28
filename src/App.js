@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Education from './components/Education.js';
 import Projects from './components/Projects.js';

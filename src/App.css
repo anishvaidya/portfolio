@@ -40,9 +40,36 @@
   }
 }
 
+
+.card{
+  /* height: 620px; */
+  height: 70vh;
+  filter: drop-shadow(3px 3px 3px #575757d0);
+  overflow: auto;
+}
+
+.card::-webkit-scrollbar {
+  display: none;
+}
+
+.card-content {
+  /* padding-right: 25px; */
+  align-items: center;
+}
+
+
+.Duration {
+  color: grey;
+}
+
+.Description {
+  text-align: justify;
+  padding-bottom: 10px;
+}
 .Logo {
   width: 200px;
   height: auto;
+  align-content: center;
 }
 
 .Heading {
@@ -51,25 +78,78 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.college {
+  font-size: 20px;
+  font-weight: bold;
+}
+
 /* section styling */
 .Section {
+  /* width: 100vw; */
   min-height: 100vh;
+  max-height: 100vh;
+  /* padding: 10px; */
+  /* align-items: center; */
+  /* align-content: center; */
+  /* vertical-align: middle; */
 }
 
 .University {
-  font-size: 25px;
+  padding-top: 10px;
+  font-size: 25px !important;
   font-weight: bold;
   font-family: inherit;
 }
 
-.Project-title {
-  font-size: 25px;
+.card-title {
+  padding-top: 10px;
+  font-size: 25px !important;
   font-weight: bold;
+  font-family: inherit;
+}
+
+.Company {
+  font-size: 20px !important;
+  font-weight: bold;
+  font-family: inherit;
+}
+
+.Location {
+  font-size: 20px !important;
   font-family: inherit;
 }
 
 .Project-link {
   width: 30px;
   height: auto;
+}
 
+.Technology {
+  font-size: 15px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100% !important;
+  overflow-x: auto;
+  width: inherit;
+  margin: 0 !important;
+  height: 80vh !important;
+}
+
+.card-container::-webkit-scrollbar {
+  display: none;
+}
+.row {
+  margin: auto;
+  max-width: 5in;
+  min-width: 5in;
+  /* height: 6in; */
+}
+
+.row .card {
+  border-style: solid;
+  margin: 20px;
+  text-align: center;
 }
