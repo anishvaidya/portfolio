@@ -1,10 +1,7 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import myeducation from '../data/myeducation.json';
 import '../App.css';
-
-// import Card from '@material-ui/core/Card';
-
-// import CardContent from '@material-ui/core/CardContent';
+import AOS from 'aos';
 
 
 const educationList = myeducation.education;
@@ -37,16 +34,20 @@ const educationList = myeducation.education;
 // }
 
 const Education = () => {
+    useEffect(() => {
+        AOS.init();
+        // AOS.refresh();
+      });
     return (
-        <div className="Section">
-            <div className="Heading">Education</div>
-            <div className="card-container">
+        <div className="Section" style = {{backgroundColor: "#F1F1F1"}} id = "education">
+            <div className="Heading" data-aos="fade-in" data-aos-duration="2000">Education</div>
+            <div className="card-container" data-aos = "fade" data-aos-duration = "1000">
                 {
                     educationList.map((education, i) => {
                         let logo = process.env.PUBLIC_URL + education.logo;
                         return (
                             <div className="row" key = {i}>
-                                <div className="card" key={i}>
+                                <div className="card" data-aos = "slide-left" data-aos-duration = "1500" key={i}>
                                     <div className="card-content">
                                         <div className="card-title">{education.universityName}</div>
                                         <img src={logo} alt="logo" className="Logo no-select" />

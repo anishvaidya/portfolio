@@ -1,10 +1,7 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import myexperience from '../data/myexperience.json';
 import '../App.css';
-
-// import Card from '@material-ui/core/Card';
-// import CardActions from '@material-ui/core/CardActions';
-// import CardContent from '@material-ui/core/CardContent';
+import AOS from 'aos';
 
 
 const experienceList = myexperience.experience;
@@ -40,16 +37,20 @@ const experienceList = myexperience.experience;
 // }
 
 const Experience = () => {
+    useEffect(() => {
+        AOS.init();
+        // AOS.refresh();
+      });
     return (
-        <div className="Section">
-            <div className="Heading">Experience</div>
-            <div className="card-container">
+        <div className="Section" id = "experience">
+            <div className="Heading" data-aos="fade-in" data-aos-duration="2000">Experience</div>
+            <div className="card-container" data-aos = "fade" data-aos-duration = "1000">
                 {
                     experienceList.map((experience, i) => {
                         let logo = process.env.PUBLIC_URL + experience.logo;
                         return (
                             <div className="row" key={i}>
-                                <div className="card" key={i}>
+                                <div className="card" data-aos = "slide-right" data-aos-duration = "1500" style = {{backgroundColor: "#F1F1F1"}} key={i}>
                                     <div className="card-content">
                                         <div className="card-title">{experience.position}</div>
                                         <img src={logo} alt="Logo" className="Logo no-select" />

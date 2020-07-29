@@ -1,10 +1,7 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import myprojects from '../data/myprojects.json';
 import '../App.css';
-
-// import Card from '@material-ui/core/Card';
-// import CardActions from '@material-ui/core/CardActions';
-// import CardContent from '@material-ui/core/CardContent';
+import AOS from 'aos';
 
 
 const projecList = myprojects.projects;
@@ -43,14 +40,19 @@ const link = process.env.PUBLIC_URL + "/assets/images/source_code.png";
 
 
 const Projects = () => {
+    useEffect(() => {
+        AOS.init();
+        // AOS.refresh();
+      });
+
     return (
-        <div className="Section">
-            <div className="Heading">Projects</div>
-            <div className="card-container">
+        <div className="Section" style = {{backgroundColor: "#F1F1F1"}} id = "projects">
+            <div className="Heading" data-aos="fade-in" data-aos-duration="2000">Projects</div>
+            <div className="card-container" data-aos = "fade" data-aos-duration = "1000">
                 {
                     projecList.map((project, i) => {
                         return (
-                            <div className="row" key={i}>
+                            <div data-aos = "slide-left" data-aos-duration = "1500" className="row" key={i}>
                                 <div className="card" key={i}>
                                     <div className="card-title">{project.projectName}</div>
 

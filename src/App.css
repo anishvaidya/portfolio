@@ -1,9 +1,10 @@
 .App {
   text-align: center;
+  position: relative;
 }
 
 .App-logo {
-  height: 15vmin;
+  height: 5vmin;
   pointer-events: none;
 }
 
@@ -44,7 +45,7 @@
 .card{
   /* height: 620px; */
   height: 70vh;
-  filter: drop-shadow(3px 3px 3px #575757d0);
+  filter: drop-shadow(1px 3px 3px #575757d0);
   overflow: auto;
 }
 
@@ -73,6 +74,7 @@
 }
 
 .Heading {
+  padding-top: 55px;
   font-size: 75px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
@@ -152,4 +154,24 @@
   border-style: solid;
   margin: 20px;
   text-align: center;
+}
+
+.navbar {
+  /* position: fixed;
+  top: 0;
+  left: 0; */
+  display: flex;
+  flex-wrap: wrap; 
+  align-items: center;
+  justify-content: space-between; 
+  }
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    }
+
+.typed {
+  font-size: 200%;
+
 }
