@@ -48,6 +48,13 @@
   filter: drop-shadow(1px 3px 3px #575757d0);
   overflow: auto;
 }
+@media (max-width: 500px) {
+  .card {
+    /* width: calc(500px - 10vmin); */
+    width: 90vw;
+  }
+}
+
 
 .card::-webkit-scrollbar {
   display: none;
@@ -153,6 +160,7 @@
 .row .card {
   border-style: solid;
   margin: 20px;
+  /* margin: 20vw; */
   text-align: center;
 }
 
@@ -160,6 +168,7 @@
   /* position: fixed;
   top: 0;
   left: 0; */
+  width: 100vw;
   display: flex;
   flex-wrap: wrap; 
   align-items: center;
@@ -172,6 +181,24 @@
     }
 
 .typed {
-  font-size: 200%;
+  /* font-size: 200%; */
+  /* font-size: 4.5vw; */
+  /* font-size: calc(30px + 2vmin); */
+  font-size: 6vmin;
 
+}
+
+.Name {
+  /* font-size: 5vw; */
+  font-family: "Roboto";
+  font-weight: bold;
+  /* font-size: 7vw; */
+  /* font-size: calc(50px + 2vmin); */
+  font-size: 9vmin;
+}
+
+.IntroContent {
+  padding-top: 12vh;
+  height: 70vh;
+  vertical-align: middle;
 }
