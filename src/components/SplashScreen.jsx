@@ -21,8 +21,7 @@ class SplashScreen extends Component {
         };
 
         return (
-            <div style={backgroundStyle}><img src={logo} style={imageStyle} alt="My logo" /></div>
-
+            <div style={backgroundStyle} data-aos="fill" data-aos-duration="1000"><img src={logo} style={imageStyle} className="bounce" alt="My logo" /></div>
         );
     }
 }

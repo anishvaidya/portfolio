@@ -4,9 +4,10 @@ import './App.css';
 import Education from './components/Education.js';
 import Projects from './components/Projects.js';
 import Experience from './components/Experience';
-import Skills from './components/Skills';
+import Skills from './components/Skills.jsx';
 import Introduction from './components/Introduction';
 import Navigation from './components/Navigation';
+import About from './components/About';
 import SplashScreen from './components/SplashScreen';
 
 
@@ -16,7 +17,11 @@ class App extends React.Component {
         this.state = {
             renderSplashscreen: true
         };
-        setTimeout(()=>this.setState({renderSplashscreen: false}), 1500);
+        // setTimeout(()=>this.setState({renderSplashscreen: false}), 1000);
+    }
+
+    componentDidMount() {
+        setTimeout(()=>this.setState({renderSplashscreen: false}), 1000);
     }
 
     render() {
@@ -32,6 +37,7 @@ class App extends React.Component {
                     <Education />
                     <Experience />
                     <Projects />
+                    <About />
                 </div>
             );
     }

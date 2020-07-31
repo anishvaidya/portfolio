@@ -82,7 +82,8 @@
 
 .Heading {
   padding-top: 55px;
-  font-size: 75px;
+  /* font-size: 75px; */
+  font-size: 8vmin;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -201,4 +202,89 @@
   padding-top: 12vh;
   height: 70vh;
   vertical-align: middle;
+}
+
+.bounce {
+  animation: bounce 1s;
+}
+
+@keyframes bounce {
+  0%,
+  25%,
+  50%,
+  75%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-12px);
+  }
+}
+
+.particles canvas{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+}
+
+.About {
+  height: auto;
+  text-align: justify;
+  padding-right: 10vmin;
+  padding-left: 10vmin;
+  padding-top: 1.5vmin;
+  font-size: calc(6px + 2vmin);
+}
+
+.carousel-indicators li {
+  background-color: #343a40;
+  background-color: rgba(70, 70, 70, 0.25);
+}
+
+.carousel-indicators .active {
+  background-color: #535353;
+}
+
+.domain {
+  padding: 2vmin;
+  height: 80vh;
+  align-items: center;
+}
+
+.skill-data {
+  display: flex;
+  height: 70vh;
+  /* vertical-align: middle; */
+  align-items: center;
+  align-content: stretch;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 5vmin;
+
+}
+
+.skill {
+  align-items: center;
+  font-size: 3vmin;
+  /* padding-left: 10vmin;
+  padding-right: 10vmin; */
+  /* font-size: calc(2px + 3vmin); */
+  width: 20%;
+  box-sizing: border-box;
+}
+
+.skill-logo {
+  width: 100px;
+  height: auto;
+  align-content: center;
+}
+@media (max-width: 500px) {
+  .skill-logo {
+    /* width: calc(500px - 10vmin); */
+    width: 50px;
+  }
 }

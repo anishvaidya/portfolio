@@ -24,6 +24,9 @@ class Navigation extends React.Component {
                         <li className="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                             <a href="#projects" className="nav-link">Projects</a>
                         </li>
+                        <li className="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                            <a href="#about" className="nav-link">About</a>
+                        </li>
                     </ul>
                 </div>
             </nav>
