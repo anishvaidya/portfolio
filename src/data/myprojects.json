@@ -50,7 +50,7 @@
                 "Developed a  web-application to download legal torrents directly through the browser without having to download any torrent client application.",
                 "Leveraged the Torrent API to handle the protocol and download files in a plug-and-play fashion."
             ],
-            "link" : "https://github.com/anishvaidya/Face-Recognition-Inception-Opencv-"            
+            "link" : "https://github.com/anishvaidya/Browser-Torrent"            
         }
     ]
 }
