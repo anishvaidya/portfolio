@@ -6,7 +6,7 @@ import Partices from './Particles';
 
 // import Particles from 'react-particles-js';
 
-const picture = process.env.PUBLIC_URL + "/assets/images/anish.jpg";
+const picture = process.env.PUBLIC_URL + "/assets/images/anish_dp.jpg";
 const Introduction = () => {
     useEffect(() => {
         AOS.init();
@@ -36,34 +36,6 @@ const Introduction = () => {
                     <a href="https://www.instagram.com/anish_vaidya/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram" style={{ fontSize: "2em", color: "black", padding: "1vw" }}></i></a>
                 </div>
             </div>
-            {/* <Particles
-                params={{
-                    "particles": {
-                        "line_linked": {
-                                    "color":"#000000"
-                                    },
-                        "number": {
-                            "value": 25
-                        },
-                        "size": {
-                            "value": 2
-                        }
-                    },
-                    "interactivity": {
-                        "events": {
-                            "onhover": {
-                                "enable": true,
-                                "mode": "repulse"
-                            }
-                        }
-                    }
-                }}
-                style={{
-                        width: '100%',
-                        background: `#ffffff`,
-                 }}
-                /> */}
-
         </div>
     );
 }

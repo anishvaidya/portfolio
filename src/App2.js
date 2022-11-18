@@ -15,14 +15,6 @@ import SplashScreen from './components/SplashScreen';
 import logo from './logo.svg';
 
 function App() {
-  // let state = {
-  //   isReady: false,
-  // };
-
-  // setTimeout(() => {
-  //   state.isReady= true
-  // }, 5000);
-
   return (
     
     <div className="App" data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -34,23 +26,6 @@ function App() {
       <Projects />
     </div>
   );
-  // if (!state.isReady){
-  //   console.log(state);
-  //   return (<SplashScreen />);
-  // }
-  // else{
-  //   return (
-    
-  //   <div className="App" data-spy="scroll" data-target=".navbar" data-offset="50">
-  //     <Navigation />
-  //     <Introduction />
-  //     <Skills />
-  //     <Education />
-  //     <Experience />
-  //     <Projects />
-  //   </div>
-  // );}
-  
 }
 
 export default App;
